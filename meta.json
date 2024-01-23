@@ -1,0 +1,18 @@
+{
+  "module_id": "michaellee1019:tm1637",
+  "visibility": "private",
+  "url": "https://github.com/michaellee1019/tm1637",
+  "description": "This module implements a driver for tm1637. Currently only one method exists to show the current system time for a configurable amount of seconds",
+  "models": [
+    {
+      "api": "rdk:component:generic",
+      "model": "michaellee1019:tm1637:time"
+    }
+  ],
+  "build": {
+    "build": "sh build.sh",
+    "path": "dist/archive.tar.gz",
+    "arch" : ["linux/arm64", "linux/amd64"]
+  },
+  "entrypoint": "dist/main"
+}

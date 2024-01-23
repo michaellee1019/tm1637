@@ -1,0 +1,3 @@
+viam-sdk
+rpi-gpio==0.7.1
+raspberrypi-tm1637
